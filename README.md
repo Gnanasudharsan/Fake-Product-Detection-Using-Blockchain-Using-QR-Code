@@ -46,3 +46,6 @@ python backend/server.py
 ```
 
 ### Step 5: Open the web interface
+
+  Open index.html
+  
