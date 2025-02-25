@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Product Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fake Product Detection</h1>
+
+        <!-- QR Code Upload Section -->
+        <label for="qrInput">Upload QR Code:</label>
+        <input type="file" id="qrInput">
+        <button onclick="scanQRCode()">Scan QR Code</button>
+        <p id="qrResult"></p>
+
+        <!-- Product Verification -->
+        <h2>Verify Product Authenticity</h2>
+        <input type="text" id="serialInput" placeholder="Enter Product Serial Number">
+        <button onclick="verifyProduct()">Check Product</button>
+        <p id="verificationResult"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
