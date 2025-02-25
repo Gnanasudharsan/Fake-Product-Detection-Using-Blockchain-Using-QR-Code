@@ -3,24 +3,24 @@ This project ensures the authenticity of products using blockchain technology an
 
 # Fake Product Detection Using Blockchain & QR Code
 
-## 📌 Overview
+## Overview
 This project ensures **fake product detection** using **blockchain technology**. A **QR code** is generated for each product, and its authenticity is verified by storing and retrieving its details from a **smart contract on Ethereum**.
 
-## 🏗️ Features
+## Features
 -  **Blockchain-based Verification**: Decentralized product authentication.
 -  **QR Code Generation & Scanning**: Unique QR codes for each product.
 -  **Smart Contract Implementation**: Immutable and tamper-proof data storage.
 -  **Web-based Interface**: Simple UI to scan & verify product authenticity.
 -  **Flask API**: Backend API to interact with blockchain.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend**: HTML, JavaScript, CSS
 - **Backend**: Python (Flask)
 - **Blockchain**: Solidity (Ethereum Smart Contract)
 - **Database**: SQLite
 - **QR Code**: OpenCV, QR Code library
 
-## 🚀 Installation Guide
+## Installation Guide
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/yourusername/Fake-Product-Detection.git
