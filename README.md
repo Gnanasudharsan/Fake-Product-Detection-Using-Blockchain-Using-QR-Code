@@ -1,0 +1,2 @@
+# Fake-Product-Detection-Using-Blockchain-Using-QR-Code
+This project ensures the authenticity of products using blockchain technology and QR codes. Manufacturers generate a unique QR code linked to a blockchain entry. Consumers can scan the QR code to verify whether a product is genuine or counterfeit. The system consists of a Solidity smart contract, a Flask backend, and a JavaScript-based frontend.
